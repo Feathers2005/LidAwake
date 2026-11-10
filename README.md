@@ -2,6 +2,14 @@
 
 一个 macOS 菜单栏小工具：点一下，合上笔记本盖子后电脑也不会睡眠。
 
+## 下载
+
+不想自己编译的话，直接去 [Releases](https://github.com/Feathers2005/LidAwake/releases/latest) 下载 `LidAwake-v1.1.0.zip`，解压后把 `合盖不休眠.app` 拖进「应用程序」。
+
+首次打开请 **右键 → 打开**（应用未做 Apple 公证，直接双击会被 Gatekeeper 拦下）。
+
+想自己构建的话，看下面「构建」一节。
+
 ```
 合盖不休眠.app/                     ← 双击就能用
 Sources/                           ← Swift 源码
